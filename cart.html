@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <style>
+    button{
+    margin-top: 2%;
+    margin-left: 5px;
+    margin-bottom:5px;
+    background-color:mediumseagreen;
+    border: 1px solid whitesmoke ;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: .9;
+    color:white;
+
+
+}
+button:hover{
+    background-color:black ;
+    color:white;
+    transition: .5s;
+}
+  </style>
+  <body>
+    <nav class="navbar bg-success" style="opacity: .8;">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#">
+            <strong>Cart</strong> 
+            <button >Remove All</button>
+          </a>
+        </div>
+      </nav>
+
+      <table class="table table-success table-hover">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Order</th>
+              <th scope="col">Quentity</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td> </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2"></td>
+              <td></td>
+            </tr>
+          </tbody>
+      </table>
+
+      <div class="card">
+        <h5 class="card-footer"></h5>
+        <div class="card-body">
+          <h5 class="card-title">AMOUNT</h5>
+          <p class="card-text"> Rs</p>
+          <a href="#" class="btn btn-success">Place Order</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
